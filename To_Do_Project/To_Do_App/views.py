@@ -9,3 +9,6 @@ def Main(request):
 
 def base(request):
     return render (request,"base.html")
+
+def Login(request):
+    return render (request,"login.html")
