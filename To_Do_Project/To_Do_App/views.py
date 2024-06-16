@@ -6,3 +6,6 @@ from django.http import HttpResponse
 
 def Main(request):
     return HttpResponse ("<h1>Rachapro</>")
+
+def base(request):
+    return render (request,"base.html")
